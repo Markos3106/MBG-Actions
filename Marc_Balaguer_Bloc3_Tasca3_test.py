@@ -5,7 +5,7 @@ import pytest
     "biblioteca, res_esperat", 
     [
         ([{"llibre": "El Quixot", "categoria": "novel·la"}], 
-        ['El Quixot']), #Aixo és el resultat.
+        ['El Quixot1']), #Aixo és el resultat.
         ([{"llibre": "El Quixot", "categoria": "novel·la"}, {"llibre": "Crim i Càstig", "categoria": "novel·la"}],
         ['El Quixot', 'Crim i Càstig']) #Aixo és el resultat.
     ]
